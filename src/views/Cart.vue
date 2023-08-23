@@ -12,18 +12,17 @@
             <ul class="-my-8">
               <li class="flex flex-col space-y-3 py-6 text-left sm:flex-row sm:space-x-5 sm:space-y-0">
                 <div class="shrink-0">
-                  <img class="h-24 w-24 max-w-full rounded-lg object-cover" src="../assets/img/compass.jpeg" alt="" />
+                  <img class="h-24 w-24 max-w-full rounded-lg object-cover" src="../assets/img/t2.jpg" alt="" />
                 </div>
 
                 <div class="relative flex flex-1 flex-col justify-between">
                   <div class="sm:col-gap-5 sm:grid sm:grid-cols-2">
                     <div class="pr-8 sm:pr-5">
-                      <p class="text-base font-semibold text-gray-900">Compass Retrograde</p>
-                      <p class="mx-0 mt-1 mb-0 text-sm text-gray-400">40</p>
+                      <p class="text-base font-semibold text-gray-900">𝑻-𝑺𝒉𝒊𝒓𝒕 𝑻𝒉𝒆 𝑩𝒂𝒕𝒕𝒍𝒆𝒔</p>
                     </div>
 
                     <div class="mt-4 flex items-end justify-between sm:mt-0 sm:items-start sm:justify-end">
-                      <p class="shrink-0 w-20 text-base font-semibold text-gray-900 sm:order-2 sm:ml-8 sm:text-right">Rp.500.000</p>
+                      <p class="shrink-0 w-20 text-base font-semibold text-gray-900 sm:order-2 sm:ml-8 sm:text-right">Rp.300.000</p>
 
                       <div class="sm:order-1">
                         <div class="mx-auto flex h-8 items-stretch text-gray-600">
@@ -54,16 +53,12 @@
           <div class="mt-6 border-t border-b py-2">
             <div class="flex items-center justify-between">
               <p class="text-sm text-gray-400">Subtotal</p>
-              <p class="text-lg font-semibold text-gray-900">Rp.500.000</p>
-            </div>
-            <div class="flex items-center justify-between">
-              <p class="text-sm text-gray-400">Shipping</p>
-              <p class="text-lg font-semibold text-gray-900">Rp.10.000</p>
+              <p class="text-lg font-semibold text-gray-900">Rp.300.000</p>
             </div>
           </div>
           <div class="mt-6 flex items-center justify-between">
             <p class="text-sm font-medium text-gray-900">Total</p>
-            <p class="text-2xl font-semibold text-gray-900"><span class="text-xs font-normal text-gray-400">Rp</span>510.000</p>
+            <p class="text-2xl font-semibold text-gray-900"><span class="text-xs font-normal text-gray-400">Rp</span>300.000</p>
           </div>
 
           <div class="mt-6 text-center">

@@ -37,11 +37,14 @@
     <p class="text-gray-400">Check your items. And select a suitable shipping method.</p>
     <div class="mt-8 space-y-3 rounded-lg border bg-white px-2 py-4 sm:px-6">
       <div class="flex flex-col rounded-lg bg-white sm:flex-row">
-        <img class="m-2 h-24 w-28 rounded-md border object-cover object-center" src="../assets/img/compass.jpeg" alt="" />
+        <img class="m-2 h-24 w-28 rounded-md border object-cover object-center" src="../assets/img/t2.jpg" alt="" />
         <div class="flex w-full flex-col px-4 py-4">
-          <span class="font-semibold">Compass Retrograde</span>
-          <span class="float-right text-gray-400">40</span>
-          <p class="text-lg font-bold">Rp.500.000</p>
+          <span class="font-semibold">𝑻-𝑺𝒉𝒊𝒓𝒕 𝑻𝒉𝒆 𝑩𝒂𝒕𝒕𝒍𝒆𝒔</span>
+          <br>
+          <p>
+            <span class="text-lg font-bold">Rp.300.000</span>
+            <span class="text-sm text-slate-900 line-through">Rp.600.000</span>
+          </p>
         </div>
       </div>
       
@@ -127,16 +130,12 @@
       <div class="mt-6 border-t border-b py-2">
         <div class="flex items-center justify-between">
           <p class="text-sm font-medium text-gray-900">Subtotal</p>
-          <p class="font-semibold text-gray-900">Rp.500.000</p>
-        </div>
-        <div class="flex items-center justify-between">
-          <p class="text-sm font-medium text-gray-900">Shipping</p>
-          <p class="font-semibold text-gray-900">Rp.10.000</p>
+          <p class="font-semibold text-gray-900">Rp.300.000</p>
         </div>
       </div>
       <div class="mt-6 flex items-center justify-between">
         <p class="text-sm font-medium text-gray-900">Total</p>
-        <p class="text-2xl font-semibold text-gray-900">Rp.510.000</p>
+        <p class="text-2xl font-semibold text-gray-900">Rp.300.000</p>
       </div>
     </div>
     <button class="mt-4 mb-8 w-full rounded-md bg-gray-900 px-6 py-3 font-medium text-white">Place Order</button>

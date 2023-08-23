@@ -4,6 +4,7 @@ import Register from "../views/Register.vue"
 import Home from "../views/Home.vue";
 import Produk from "../views/Produk.vue"
 import Contact from "../views/Contact.vue";
+import User from "../views/User.vue";
 import Cart from "../views/Cart.vue";
 import Checkout from "../views/Checkout.vue";
 import Brands from "../views/Brands.vue";
@@ -22,9 +23,10 @@ const routes = [
         component: Produk
     },
     {
-        path: '/produk/:id',
+        path: '/produk/:slug',
         name: 'SingleProduk',
-        component: SingleProduk
+        component: SingleProduk,
+        props: true
     },
     {
         path: "/cart",
@@ -41,6 +43,11 @@ const routes = [
         path: "/contact",
         name: "Contact",
         component: Contact
+    },
+    {
+        path: "/user",
+        name: "User",
+        component: User
     },
     {
         path: "/brands",

@@ -28,6 +28,25 @@ const auth = {
         return false;
       }
     },
+    async getUserData ({ commit }, token){
+      let response;
+      try {
+        response = await axios.get('https://ecommerce.olipiskandar.com/api/v1/user/info',
+        {
+          headers: {
+            Authorization: `Bearer $ {token}`
+          }
+        });
+        console.log(response.data)
+        return response.data;
+      }
+      catch (err) {
+        console.log(err);
+        console.log({})
+        commit("USER_INFO")
+        return false;
+      }
+    },
     async signup({ commit }, credentials) {
       try {
         const response = await axios.post(
